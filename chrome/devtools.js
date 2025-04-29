@@ -2,7 +2,7 @@
 
 chrome.devtools.panels.create(
   'Download',
-  'img/devtools-icon.png',
+  'img/icon48.png',
   'panel.html',
   (panel) => panel.onShown.addListener((win) => win.focus()),
 );
